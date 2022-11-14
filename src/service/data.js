@@ -1,16 +1,16 @@
-const getCompensations = () => [
+const compensations = [
 	{
-		name: 'A',
+		name: 'Megala',
 		amount: 200,
 
 	},
 
 	{
 
-		name: 'B',
+		name: 'Vini',
 		amount: 300,
 	},
 
 ];
 
-export default getCompensations;
+export default compensations;
