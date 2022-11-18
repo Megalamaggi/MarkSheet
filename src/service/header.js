@@ -7,6 +7,8 @@ const headers = [
 	'science',
 	'social',
 	'Total',
+	'result',
+	'rank',
 ];
 
 export default headers;
