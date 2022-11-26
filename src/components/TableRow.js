@@ -1,4 +1,4 @@
-/* eslint-disable react/react-in-jsx-scope */
+import { React } from 'react';
 /* eslint-disable max-len */
 const TableRow = ({ rollNo, name, tamil, english, maths, science, social, total, result, rank }, key) =>
 	<tr key={ key }>
