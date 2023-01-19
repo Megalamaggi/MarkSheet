@@ -2,8 +2,8 @@ import { React, useState } from 'react';
 import './App.scss';
 import AddButton from './components/AddButton';
 import Inputs from './components/Inputs';
-import Simpletable from './components/Simpletable';
 import markSheets from './service/markSheet';
+import StudentTable from './components/StudentTable';
 
 const initialState = {
 	currentMarkSheet: {
@@ -24,7 +24,7 @@ const App = (context) => {
 
 	return (
 		<div className="App">
-			<Simpletable { ...extendedContext }/>
+			<StudentTable { ...extendedContext }/>
 			<Inputs { ...extendedContext }/>
 			<AddButton { ...extendedContext }/>
 		</div>
