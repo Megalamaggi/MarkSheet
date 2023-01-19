@@ -3,7 +3,7 @@ import './App.scss';
 import AddButton from './components/AddButton';
 import Inputs from './components/Inputs';
 import markSheets from './service/markSheet';
-import StudentTable from './components/StudentTable';
+import StudentsTable from './components/StudentsTable';
 
 const initialState = {
 	currentMarkSheet: {
@@ -24,7 +24,7 @@ const App = (context) => {
 
 	return (
 		<div className="App">
-			<StudentTable { ...extendedContext }/>
+			<StudentsTable { ...extendedContext }/>
 			<Inputs { ...extendedContext }/>
 			<AddButton { ...extendedContext }/>
 		</div>

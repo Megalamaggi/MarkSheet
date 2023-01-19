@@ -4,7 +4,7 @@ import addFields from '../service/studentsManager';
 import TableHeader from './TableHeader';
 import TableRow from './TableRow';
 
-const StudentTable = ({ state: { markList }}) =>
+const StudentsTable = ({ state: { markList }}) =>
 	<div>
 		<h1>MarkSheet</h1>
 		<table className="tableStyle">
@@ -19,4 +19,4 @@ const StudentTable = ({ state: { markList }}) =>
 		</table>
 	</div>;
 
-export default StudentTable;
+export default StudentsTable;
