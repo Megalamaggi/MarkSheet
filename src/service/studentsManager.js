@@ -1,3 +1,5 @@
+import { peek } from '@laufire/utils/debug';
+
 const passMark = 35;
 
 const getResult = (student) => (Math.min(
@@ -35,6 +37,7 @@ const getRank = (studentsData) => {
 };
 
 const addFields = (markSheets) => {
+	peek(markSheets);
 	const studentsData = markSheets.map(processData);
 
 	return getRank(studentsData);
