@@ -5,11 +5,15 @@ const AddButton = (context) => {
 	const { currentMarkSheet, markList } = state;
 
 	return (
-		<button onClick={ () => setState({
-			...state,
-			markList: [...markList, currentMarkSheet],
-		}) }
-		>Add</button>
+		<div>
+			<button onClick={ () => setState({
+				...state,
+				markList: [...markList, currentMarkSheet],
+			}) }
+			>
+				Add
+			</button>
+		</div>
 	);
 };
 
