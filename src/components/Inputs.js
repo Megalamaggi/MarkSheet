@@ -8,7 +8,7 @@ const Inputs = (context) => {
 		<span Key={ Key }>
 			<label>{header}:</label>
 			<input
-				style={ { width: '70px' } }
+				style={ { width: '71px' } }
 				onChange={ ({ target: { value }}) => setState({
 					...state,
 					currentMarkSheet: {
